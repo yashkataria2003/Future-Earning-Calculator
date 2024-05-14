@@ -4,8 +4,8 @@ import Background from '../src/assets/Background.mp4'
 
 const App = () => {
   return (
-    <div className="flex justify-center items-center w-[100vw] h-[100vh]  px-[1vw] py-[2vh] overflow-hidden">
-      <div className="flex justify-center items-center py-[1vh] h-[100vh] w-[100vw] relative">
+    <div className="flex justify-center items-center w-[100vw] h-[100vh]  px-[1vw] py-[2vh] overflow-hidden max-lg:overflow-auto">
+      <div className="flex justify-center items-center py-[1vh] h-[100vh] w-[100vw] relative max-lg:h-fit">
         <ReactPlayer
           url={Background} // Change 'temp' to the actual path of your video file
           playing

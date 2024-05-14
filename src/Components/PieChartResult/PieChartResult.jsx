@@ -15,7 +15,7 @@ const PieChartResult = ({ totalExpenses, futureEarnings, targetBranch, targetCou
     const COLORS = ["#0088FE", "#00C49F"];
 
     return (
-        <div className='flex flex-col justify-start items-center w-[40%] h-[100%] rounded-2xl px-[2vw] py-[2vh] gap-y-[2vh] bg-[#00000052]'>
+        <div className='flex flex-col justify-start items-center w-[40%] h-[100%] rounded-2xl px-[2vw] py-[2vh] gap-y-[2vh] bg-[#00000052] max-lg:h-fit max-lg:w-[90%]'>
             <div className='flex flex-col justify-center items-center  gap-y-[2vh] px-[1vw] py-[1vh]'>
                 <p className='bg-white px-[1vw] py-[1vh] rounded-lg font-bold'>TotalExpenses : <span className='text-[1rem] font-normal'>{totalExpenses} {currency}</span></p>
                 <p className='bg-white px-[1vw] py-[1vh] rounded-lg font-bold'>FutureEarnings : <span className='text-[1rem] font-normal'>{futureEarnings} {currency}</span></p>

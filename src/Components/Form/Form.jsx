@@ -116,8 +116,8 @@ const Form = () => {
 
 
     return (
-        <div className='flex justify-between items-center w-[100%] h-[100%] gap-x-[2vw] absolute'>
-            <div className='flex flex-col justify-start items-start w-[60%] h-[100%] bg-[#00000052] px-[2vw] py-[2vh] gap-y-[2vh] rounded-3xl'>
+        <div className='flex justify-between items-center w-[100%] h-[100%] gap-x-[2vw] absolute max-lg:flex-col max-lg:gap-y-[5vh]'>
+            <div className='flex flex-col justify-start items-start w-[60%] h-[100%] bg-[#00000052] px-[2vw] py-[2vh] gap-y-[2vh] rounded-3xl max-lg:h-fit max-lg:w-[90%]'>
                 <h2 className='font-bold text-[3rem] text-white'>Future Earning Calculator</h2>
                 <form action="post" onSubmit={handleSubmit} className='flex flex-col justify-start items-start gap-y-[2vh]'>
                     <ul className='flex flex-col justify-start  items-start gap-y-[1vh]'>
